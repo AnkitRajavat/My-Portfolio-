@@ -1,0 +1,105 @@
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+  }
+  
+  .portfolio h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  .portfolio-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    gap: 2.5vh;
+  }
+  
+  .portfolio-card {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background-color: #3d3e42;
+    border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    transition: all ease 0.5s;
+  }
+  
+  .portfolio-card img {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    object-fit: cover;
+  }
+  
+  .portfolio-card .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    height: 30vw;
+    width: 30vw;
+    background-color: #34353ba2;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    transition: all ease 0.5s;
+  }
+  
+  .portfolio-card .overlay h3 {
+    color: #fbfbfb;
+    font-size: 24px;
+  }
+  
+  .portfolio-card .overlay p {
+    color: #fbfbfb;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .portfolio-card .overlay button {
+    height: 36px;
+    width: 108px;
+    background-color: #fec86a;
+    border: 1px solid #fec86a;
+    border-radius: 8px;
+    color: #34353b;
+    font-size: 12px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+  }
+  
+  .portfolio-card .overlay:hover {
+    opacity: 1;
+  }
+  
+  .portfolio button {
+    margin-top: 50px;
+    height: 48px;
+    width: 144px;
+    background-color: #fec86a;
+    border: 1px solid #fec86a;
+    border-radius: 8px;
+    color: #34353b;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease 0.5s;
+  }
+  
+  .portfolio button:hover {
+    background-color: #cc9e4e;
+  }

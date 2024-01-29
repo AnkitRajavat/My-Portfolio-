@@ -1,0 +1,47 @@
+.about {
+  height: 80vh;
+  width: 60vw;
+  padding: 100px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.about h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 2px;
+}
+
+.about .description {
+  display: flex;
+  align-items: start;
+margin-top:0px;
+margin-bottom: 5px;
+}
+
+.about .description .line {
+  height: 2.5px;
+  width: 20vw;
+  background-color: #fec86a;
+  
+  text-align:start;
+  
+}
+
+.about p
+ {
+  height: 8vh;
+text-align: left;
+width: 80vw;
+color: #fbfbfb;
+margin-top: 8px;
+
+}
+
+.about .description  .line p span {
+  color: #fec86a;
+  text-decoration: solid;
+  
+}

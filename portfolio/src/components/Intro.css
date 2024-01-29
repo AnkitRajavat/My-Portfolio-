@@ -1,0 +1,65 @@
+.main1{
+    display: flex;
+    height: 80vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro h3 {
+    color: #fbfbfb;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 10vw;}
+    .intro h3 span {
+        color: #fec86a;
+        font-weight: 600;
+        font-size: 3.5rem;
+      }
+.intro button {
+    height: 48px;
+    width: 144px;
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    background-color: transparent;
+    border: 2px solid #fec86a;
+    border-radius: 8px;
+    color: #fec86a;
+    font-size: 16px;
+    transition: all ease 0.5s;
+  }
+  
+  .intro button:hover {
+    background-color: #fec86a;
+    color: #34353b;
+  }
+  .rajavat img{
+
+    border-radius: 50%;
+    margin-right:10px ;
+
+  }
+  .icons{
+    display: grid;
+   size: 50vh;
+    margin-right: 60px;
+
+    
+  }
+  .icons a{
+      size: 20px;
+    height: 25px;
+    width: 25px;
+    padding: 4px 4px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin-top: 5px;
+    text-decoration:white;
+     
+  }
+  .icons a :hover{
+    background-color:transparent;
+  }
